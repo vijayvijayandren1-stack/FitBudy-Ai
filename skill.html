@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Fitness</title>
+
+    <link rel="stylesheet" href="./skill.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">AI FITNESS</div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Fitness</a>
+            <a href="#">Nutrition</a>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">SMART FITNESS ASSISTANT</p>
+
+            <h1>
+                Your Body.<br>
+                <span>Your Fitness.</span><br>
+                Your Future.
+            </h1>
+
+            <p>
+                Enter your height and weight to get a simple
+                fitness recommendation based on your BMI.
+            </p>
+
+        </div>
+
+
+        <div class="fitness-box">
+
+            <h2>Check Your Fitness</h2>
+
+            <p class="box-text">
+                Enter your details below
+            </p>
+
+            <label>Height</label>
+
+            <div class="input-box">
+                <input type="number" id="height" placeholder="Enter height">
+                <span>cm</span>
+            </div>
+
+
+            <label>Weight</label>
+
+            <div class="input-box">
+                <input type="number" id="weight" placeholder="Enter weight">
+                <span>kg</span>
+            </div>
+
+
+            <button onclick="checkFitness()">
+                CHECK FITNESS
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <section id="result-section">
+
+        <div id="result">
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <h3>AI FITNESS</h3>
+
+        <p>
+            Eat Smart • Stay Active • Live Healthy
+        </p>
+
+    </footer>
+
+
+    <script src="./skill.js"></script>
+
+</body>
+
+</html>
